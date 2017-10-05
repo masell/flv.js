@@ -14,7 +14,9 @@
     "mse",
     "javascript"
   ],
+
   "scripts": {
+    "postinstall": "gulp release",
     "dev": "gulp watch",
     "build": "gulp release"
   },
