@@ -14,10 +14,11 @@
     "mse",
     "javascript"
   ],
+
   "scripts": {
     "postinstall": "postinstall-build dist",
     "dev": "gulp watch",
-    "build:dist": "gulp release"
+    "build": "gulp release"
   },
   "dependencies": {
     "postinstall-build": "^5.0.0",
