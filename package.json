@@ -14,14 +14,13 @@
     "mse",
     "javascript"
   ],
-
   "scripts": {
     "postinstall": "postinstall-build dist",
     "dev": "gulp watch",
     "build:dist": "gulp release"
   },
   "dependencies": {
-    "postinstall-build": "^3.0.0",
+    "postinstall-build": "^5.0.0",
     "es6-promise": "^4.1.0",
     "webworkify": "^1.4.0"
   },
