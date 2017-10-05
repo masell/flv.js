@@ -16,7 +16,6 @@
   ],
 
   "scripts": {
-    "postinstall": "postinstall-build dist",
     "dev": "gulp watch",
     "build": "gulp release"
   },
