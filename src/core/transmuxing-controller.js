@@ -242,7 +242,7 @@ class TransmuxingController {
             this._demuxer.timestampBase = this._mediaDataSource.segments[this._currentSegmentIndex].timestampBase;
 
             consumed = this._demuxer.parseChunks(data, byteStart);
-        } else if ((probeData = FLVDemuxer.probe(data)).match) {
+        } else if (((probeData = FLVDemuxer.probe(data)).match)) {
             // Always create new FLVDemuxer
             this._demuxer = new FLVDemuxer(probeData, this._config);
 
