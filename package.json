@@ -16,11 +16,12 @@
   ],
 
   "scripts": {
-    "postinstall": "gulp release",
+    "postinstall": "postinstall-build dist",
     "dev": "gulp watch",
-    "build": "gulp release"
+    "build:dist": "gulp release"
   },
   "dependencies": {
+    "postinstall-build": "^3.0.0",
     "es6-promise": "^4.1.0",
     "webworkify": "^1.4.0"
   },
