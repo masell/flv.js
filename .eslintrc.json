@@ -23,6 +23,7 @@
                 "catch": {"after": true}
             }
         }],
+        "no-cond-assign": 1,
         "key-spacing": [2, {"beforeColon": false, "afterColon": true, "mode": "strict"}],
         "arrow-spacing": 2,
         "comma-spacing": 2,
